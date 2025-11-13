@@ -62,9 +62,7 @@ fuck-u-code是一个代码质量分析工具，可以帮助开发者发现代码
 
 感谢所有为这个项目做出贡献的开发者！
 
-<a href="https://github.com/WorldMargin2/FuckUCodeGUI/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=WorldMargin2/FuckUCodeGUI" />
-</a>
+[![贡献者](https://contrib.rocks/image?repo=WorldMargin2/FuckUCodeGUI)](https://github.com/WorldMargin2/FuckUCodeGUI/graphs/contributors)
 
 ## 致谢
 
