@@ -52,6 +52,7 @@
             this.start_analyze = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.enable_cmd = new System.Windows.Forms.CheckBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.topest_files)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.prob_per_file)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -361,7 +362,7 @@
             this.groupBox3.Controls.Add(this.result_box);
             this.groupBox3.Location = new System.Drawing.Point(12, 296);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(776, 197);
+            this.groupBox3.Size = new System.Drawing.Size(776, 188);
             this.groupBox3.TabIndex = 14;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "结果";
@@ -376,12 +377,29 @@
             this.enable_cmd.Text = "启用命令行窗口";
             this.enable_cmd.UseVisualStyleBackColor = true;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.linkLabel1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkLabel1.LinkColor = System.Drawing.Color.DodgerBlue;
+            this.linkLabel1.Location = new System.Drawing.Point(602, 487);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(187, 20);
+            this.linkLabel1.TabIndex = 15;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Github @ WorldMargin2";
+            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Cyan;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Form1
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 505);
+            this.ClientSize = new System.Drawing.Size(795, 515);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.start_analyze);
             this.Controls.Add(this.groupBox2);
@@ -394,6 +412,8 @@
             this.Controls.Add(this.FUC_executable);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "FuckUCodeGUI";
@@ -440,6 +460,7 @@
         private System.Windows.Forms.Button start_analyze;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.CheckBox enable_cmd;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
